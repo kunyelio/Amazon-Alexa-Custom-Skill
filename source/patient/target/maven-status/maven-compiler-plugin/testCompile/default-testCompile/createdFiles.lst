@@ -1,0 +1,5 @@
+com/demo/alexa/microservice/patient/PatientControllerTests.class
+com/demo/alexa/microservice/patient/AbstractPatientControllerTests.class
+com/demo/alexa/microservice/patient/PatientControllerTests$TestPatientRepository.class
+com/demo/alexa/microservice/patient/PatientMain.class
+com/demo/alexa/microservice/patient/SpringAppTests.class

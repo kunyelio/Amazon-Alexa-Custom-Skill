@@ -1,0 +1,4 @@
+com/demo/alexa/microservice/web/Patient.class
+com/demo/alexa/microservice/web/WebServer.class
+com/demo/alexa/microservice/web/WebPatientController.class
+com/demo/alexa/microservice/web/WebPatientService.class

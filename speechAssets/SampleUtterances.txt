@@ -1,0 +1,23 @@
+AbnormalVitalsIsIntent Read me the patients with abnormal vitals
+AbnormalVitalsIsIntent Get me the patients with abnormal vitals
+AbnormalVitalsIsIntent Who are the patients with abnormal vitals
+AbnormalVitalsIsIntent Are there patients with abnormal vitals
+ReadVitalIsIntent Read me the vitals of patient {mrn}
+ReadVitalIsIntent Read me the vitals of {mrn}
+ReadVitalIsIntent What are the vitals of patient {mrn}
+ReadVitalIsIntent What are the vitals of {mrn}
+RecordIsIntent record patient vitals
+MRNIsIntent medical record number is {mrn}
+MRNIsIntent mrn is {mrn}
+PatientCorrectIsIntent patient name is correct
+PatientCorrectIsIntent confirmed
+PatientCorrectIsIntent yes
+PatientWrongIsIntent patient name is wrong
+PatientWrongIsIntent no
+PatientWrongIsIntent not confirmed
+TemperatureIsIntent temperature is {temperature}
+PulseIsIntent pulse is {pulse}
+DiaspIsIntent diastolic pressure is {diasp}
+SyspIsIntent systolic pressure is {sysp}
+ByeIsIntent thats all
+ByeIsIntent thanks bye

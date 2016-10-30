@@ -1,0 +1,15 @@
+spring:
+  application:
+     name: patient-service  # Service registers under this name
+
+# HTTP Server
+server:
+  port: 2222   # HTTP (Tomcat) port
+
+# Discovery server endpoint
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
+  instance:
+    leaseRenewalIntervalInSeconds: 5   # demo and unit testing purposes only

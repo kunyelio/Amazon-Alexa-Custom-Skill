@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: web-service  
+
+eureka:
+  instance:
+     leaseRenewalIntervalInSeconds: 5  # demo and unit testing purposes only
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
+
+ribbon:
+ eureka:
+  enabled: true
+   
+web-service:
+ ribbon:
+  NFLoadBalancer: com.netflix.loadbalancer.BaseLoadBalancer
+ #NFLoadBalancerRuleClassName: RandomRule
+
+# HTTP Server
+server:
+  port: 3333   # HTTP (Tomcat) port

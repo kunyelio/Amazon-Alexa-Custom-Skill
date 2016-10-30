@@ -1,0 +1,73 @@
+{
+  "intents": [
+    {
+      "intent": "AbnormalVitalsIsIntent"
+    },
+    {
+      "intent": "ReadVitalIsIntent",
+      "slots": [
+        {
+          "name": "mrn",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "RecordIsIntent"
+    },
+    {
+      "intent": "PatientCorrectIsIntent"
+    },
+    {
+      "intent": "PatientWrongIsIntent"
+    },
+    {
+      "intent": "ByeIsIntent"
+    },
+    {
+      "intent": "MRNIsIntent",
+      "slots": [
+        {
+          "name": "mrn",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "TemperatureIsIntent",
+      "slots": [
+        {
+          "name": "temperature",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "PulseIsIntent",
+      "slots": [
+        {
+          "name": "pulse",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "DiaspIsIntent",
+      "slots": [
+        {
+          "name": "diasp",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "SyspIsIntent",
+      "slots": [
+        {
+          "name": "sysp",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    }
+  ]
+}
